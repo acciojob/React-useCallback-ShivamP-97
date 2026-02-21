@@ -1,10 +1,13 @@
 import React from "react";
-
-import "../styles/App.css";
-import { UseCallbackComp } from "./UseCallbackComp";
+import Comp from "./comp";
 
 const App = () => {
-  return <UseCallbackComp />;
+  return (
+    <div>
+      {/* Do not remove the main div */}
+      <Comp />
+    </div>
+  );
 };
 
 export default App;
