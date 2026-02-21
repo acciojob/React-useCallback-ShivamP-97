@@ -56,4 +56,4 @@ const UseCallbackComp = () => {
     );
 };
 
-export { UseCallbackComp };
+export  {UseCallbackComp} ;
